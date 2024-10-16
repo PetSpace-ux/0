@@ -1,0 +1,510 @@
+[2024-10-16 19:43:26] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-16 19:43:26] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-10-16 19:43:26] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-16 19:43:29] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-16 19:43:29] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-16 19:43:29] [class-ss-task.php:44] Status message: [setup] Mise en place
+[2024-10-16 19:43:29] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806\
+[2024-10-16 19:43:29] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/0/
+[2024-10-16 19:43:29] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-16 19:43:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 19:43:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 19:43:29] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-16 19:43:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/
+[2024-10-16 19:43:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-16 19:43:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:43:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101761790c2-czyOdc.tmp
+[2024-10-16 19:43:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/?simply_static_page=1
+[2024-10-16 19:43:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/?simply_static_page=1
+[2024-10-16 19:43:32] [class-ss-url-fetcher.php:103] Filesize: 84031 bytes
+[2024-10-16 19:43:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:43:32] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-16 19:43:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101761790c2-czyOdc.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.html
+[2024-10-16 19:43:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:43:33] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-10-16 19:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:43:38] [class-ss-page.php:119] Checking Content Identical:e25053af6f7de240689d1ef755b81db9145b4784===. Value: FALSE
+[2024-10-16 19:43:39] [class-ss-task.php:44] Status message: [fetch_urls] 0 pages/fichiers sur 1 générés
+[2024-10-16 19:43:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 19:43:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 19:43:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:69] Total pages: 21; Pages remaining: 20
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0
+[2024-10-16 19:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 21
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710176b4b934-wGtxFM.tmp
+[2024-10-16 19:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0?simply_static_page=2
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0?simply_static_page=2
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:103] Filesize: 347 bytes
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/0/
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/page-d-exemple/
+[2024-10-16 19:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 21
+[2024-10-16 19:43:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710176b9f046-g23x27.tmp
+[2024-10-16 19:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/page-d-exemple/?simply_static_page=3
+[2024-10-16 19:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/page-d-exemple/?simply_static_page=3
+[2024-10-16 19:43:43] [class-ss-url-fetcher.php:103] Filesize: 60039 bytes
+[2024-10-16 19:43:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:43:43] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/page-d-exemple/index.html
+[2024-10-16 19:43:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710176b9f046-g23x27.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/page-d-exemple/index.html
+[2024-10-16 19:43:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:43:43] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-16 19:43:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:43:44] [class-ss-page.php:119] Checking Content Identical:c717b92cd9d71091a059ffc4b88f3cf56f6dc0a4===. Value: FALSE
+[2024-10-16 19:43:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/2024/10/16/bonjour-tout-le-monde/
+[2024-10-16 19:43:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 21
+[2024-10-16 19:43:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:43:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101770f1335-HChY5U.tmp
+[2024-10-16 19:43:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/2024/10/16/bonjour-tout-le-monde/?simply_static_page=4
+[2024-10-16 19:43:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/2024/10/16/bonjour-tout-le-monde/?simply_static_page=4
+[2024-10-16 19:43:48] [class-ss-url-fetcher.php:103] Filesize: 76645 bytes
+[2024-10-16 19:43:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:43:48] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/10/16/bonjour-tout-le-monde/index.html
+[2024-10-16 19:43:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101770f1335-HChY5U.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/2024/10/16/bonjour-tout-le-monde/index.html
+[2024-10-16 19:43:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:43:48] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-10-16 19:43:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:43:49] [class-ss-page.php:119] Checking Content Identical:1023ddc3286856fe936643687580d07882d4206d===. Value: FALSE
+[2024-10-16 19:43:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/author/lucas/
+[2024-10-16 19:43:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 21
+[2024-10-16 19:43:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:43:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101775ca5da-CJkhuO.tmp
+[2024-10-16 19:43:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/author/lucas/?simply_static_page=5
+[2024-10-16 19:43:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/author/lucas/?simply_static_page=5
+[2024-10-16 19:43:51] [class-ss-url-fetcher.php:103] Filesize: 63620 bytes
+[2024-10-16 19:43:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:43:51] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/lucas/index.html
+[2024-10-16 19:43:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101775ca5da-CJkhuO.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/author/lucas/index.html
+[2024-10-16 19:43:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:43:52] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-16 19:43:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:43:52] [class-ss-page.php:119] Checking Content Identical:9030d3f1d59090dfd1807a39ed32304df0d1f8e2===. Value: FALSE
+[2024-10-16 19:43:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/category/non-classe/
+[2024-10-16 19:43:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 21
+[2024-10-16 19:43:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:43:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101778ea0f2-nnVwE7.tmp
+[2024-10-16 19:43:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/category/non-classe/?simply_static_page=6
+[2024-10-16 19:43:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/category/non-classe/?simply_static_page=6
+[2024-10-16 19:43:59] [class-ss-url-fetcher.php:103] Filesize: 63649 bytes
+[2024-10-16 19:43:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:43:59] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/category/non-classe/index.html
+[2024-10-16 19:43:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101778ea0f2-nnVwE7.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/category/non-classe/index.html
+[2024-10-16 19:43:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:43:59] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-16 19:44:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:00] [class-ss-page.php:119] Checking Content Identical:c3e73d8593682b1cb4e32a4b706980efb9d53136===. Value: FALSE
+[2024-10-16 19:44:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-16 19:44:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 21
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710178107089-p1i9ZM.tmp
+[2024-10-16 19:44:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710178107089-p1i9ZM.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:01] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-16 19:44:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 21
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101781b40ef-xsWYz3.tmp
+[2024-10-16 19:44:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-16 19:44:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101781b40ef-xsWYz3.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:01] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-16 19:44:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 21
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101782315b5-Q0Jamo.tmp
+[2024-10-16 19:44:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101782315b5-Q0Jamo.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:02] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-includes/blocks/navigation/view.min.js
+[2024-10-16 19:44:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 21
+[2024-10-16 19:44:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101782e1fa5-15HYJi.tmp
+[2024-10-16 19:44:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
+[2024-10-16 19:44:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
+[2024-10-16 19:44:03] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-10-16 19:44:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 19:44:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-10-16 19:44:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101782e1fa5-15HYJi.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-includes/blocks/navigation/view.min.js
+[2024-10-16 19:44:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:03] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-10-16 19:44:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/feed/
+[2024-10-16 19:44:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 21
+[2024-10-16 19:44:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710178349d7b-5jMA5R.tmp
+[2024-10-16 19:44:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/feed/?simply_static_page=11
+[2024-10-16 19:44:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/feed/?simply_static_page=11
+[2024-10-16 19:44:07] [class-ss-url-fetcher.php:103] Filesize: 1784 bytes
+[2024-10-16 19:44:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 19:44:07] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/feed/index.xml
+[2024-10-16 19:44:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710178349d7b-5jMA5R.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/feed/index.xml
+[2024-10-16 19:44:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:07] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-16 19:44:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:07] [class-ss-page.php:119] Checking Content Identical:92e4f5609823b30de95edf9a1ce90d54617205dd===. Value: FALSE
+[2024-10-16 19:44:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/comments/feed/
+[2024-10-16 19:44:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 21
+[2024-10-16 19:44:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101787d6ac6-Iq7J6s.tmp
+[2024-10-16 19:44:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/comments/feed/?simply_static_page=12
+[2024-10-16 19:44:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/comments/feed/?simply_static_page=12
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:103] Filesize: 1895 bytes
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/comments/feed/index.xml
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101787d6ac6-Iq7J6s.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/comments/feed/index.xml
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:11] [class-ss-page.php:119] Checking Content Identical:acf2b2ae2d39e9d9129b69f296b54f0d7c309c85===. Value: FALSE
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-includes/blocks/navigation/style.min.css
+[2024-10-16 19:44:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 21
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710178b6febb-1EAEXS.tmp
+[2024-10-16 19:44:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710178b6febb-1EAEXS.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-includes/blocks/navigation/style.min.css
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:11] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-includes/blocks/image/style.min.css
+[2024-10-16 19:44:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 21
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710178ba2844-1xLbXK.tmp
+[2024-10-16 19:44:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710178ba2844-1xLbXK.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-includes/blocks/image/style.min.css
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:11] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/wp-json/
+[2024-10-16 19:44:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 21
+[2024-10-16 19:44:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710178bef199-Oxyhvn.tmp
+[2024-10-16 19:44:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/wp-json/?simply_static_page=15
+[2024-10-16 19:44:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/wp-json/?simply_static_page=15
+[2024-10-16 19:44:16] [class-ss-url-fetcher.php:103] Filesize: 215651 bytes
+[2024-10-16 19:44:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-16 19:44:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/index.html
+[2024-10-16 19:44:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710178bef199-Oxyhvn.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/wp-json/index.html
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:17] [class-ss-page.php:119] Checking Content Identical:1f2629d740ffd6319c4ada91e89b5e20b728f0c6===. Value: FALSE
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/xmlrpc.php
+[2024-10-16 19:44:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 21
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/0/xmlrpc.php
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-includes/js/dist/interactivity.min.js
+[2024-10-16 19:44:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 21
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710179151632-PAAroQ.tmp
+[2024-10-16 19:44:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710179151632-PAAroQ.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-includes/js/dist/interactivity.min.js
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:17] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-16 19:44:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 21
+[2024-10-16 19:44:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101791ddeff-oKil9y.tmp
+[2024-10-16 19:44:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
+[2024-10-16 19:44:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101791ddeff-oKil9y.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:18] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-16 19:44:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 21
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710179294a88-Hp5fRr.tmp
+[2024-10-16 19:44:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-16 19:44:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710179294a88-Hp5fRr.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:18] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-16 19:44:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 21
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017931799d-Huyuts.tmp
+[2024-10-16 19:44:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017931799d-Huyuts.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:19] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-16 19:44:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 21
+[2024-10-16 19:44:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101793bc544-m0Xd4o.tmp
+[2024-10-16 19:44:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-16 19:44:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/67101793bc544-m0Xd4o.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-16 19:44:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:20] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-10-16 19:44:20] [class-ss-task.php:44] Status message: [fetch_urls] 1 pages/fichiers sur 21 générés
+[2024-10-16 19:44:20] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 19:44:23] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 19:44:23] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 19:44:23] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 12
+[2024-10-16 19:44:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-admin/
+[2024-10-16 19:44:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 33
+[2024-10-16 19:44:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/67101797c5286-uSC9OY.tmp
+[2024-10-16 19:44:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-admin/?simply_static_page=22
+[2024-10-16 19:44:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-admin/?simply_static_page=22
+[2024-10-16 19:44:27] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-16 19:44:27] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:44:27] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-16 19:44:27] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/0/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2F0%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-10-16 19:44:27] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-10-16 19:44:27] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-10-16 19:44:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-10-16 19:44:27] [class-ss-page.php:119] Checking Content Identical:0da1d74e5f06cc730720924df6426a96edea3ecf===. Value: FALSE
+[2024-10-16 19:44:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/page-d-exemple/feed/
+[2024-10-16 19:44:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 33
+[2024-10-16 19:44:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710179c03905-YGg7Gy.tmp
+[2024-10-16 19:44:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/page-d-exemple/feed/?simply_static_page=23
+[2024-10-16 19:44:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/page-d-exemple/feed/?simply_static_page=23
+[2024-10-16 19:44:30] [class-ss-url-fetcher.php:103] Filesize: 754 bytes
+[2024-10-16 19:44:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 19:44:30] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/page-d-exemple/feed/index.xml
+[2024-10-16 19:44:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710179c03905-YGg7Gy.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/page-d-exemple/feed/index.xml
+[2024-10-16 19:44:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:30] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-16 19:44:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:30] [class-ss-page.php:119] Checking Content Identical:efb5054fedb1304f4bad83c0e898bc7bfd28fae9===. Value: FALSE
+[2024-10-16 19:44:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/wp-json/wp/v2/pages/2
+[2024-10-16 19:44:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 33
+[2024-10-16 19:44:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/6710179f09f35-yscrJK.tmp
+[2024-10-16 19:44:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/wp-json/wp/v2/pages/2?simply_static_page=24
+[2024-10-16 19:44:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/wp-json/wp/v2/pages/2?simply_static_page=24
+[2024-10-16 19:44:35] [class-ss-url-fetcher.php:103] Filesize: 3497 bytes
+[2024-10-16 19:44:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-16 19:44:35] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/pages/2\index.html
+[2024-10-16 19:44:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/6710179f09f35-yscrJK.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/wp-json/wp/v2/pages/2\index.html
+[2024-10-16 19:44:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:35] [class-ss-page.php:119] Checking Content Identical:479f4d6eb303c1574a9fea8b23dbf9a72dee82dd===. Value: FALSE
+[2024-10-16 19:44:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/wp-json/oembed/1.0/embed
+[2024-10-16 19:44:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 33
+[2024-10-16 19:44:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017a428d4d-onU3fS.tmp
+[2024-10-16 19:44:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/wp-json/oembed/1.0/embed?simply_static_page=25
+[2024-10-16 19:44:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/wp-json/oembed/1.0/embed?simply_static_page=25
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:103] Filesize: 130 bytes
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-16 19:44:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-includes/js/comment-reply.min.js
+[2024-10-16 19:44:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 33
+[2024-10-16 19:44:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017a797b8f-tWDHDu.tmp
+[2024-10-16 19:44:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-includes/js/comment-reply.min.js?simply_static_page=26
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-includes/js/comment-reply.min.js?simply_static_page=26
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-16 19:44:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017a797b8f-tWDHDu.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-includes/js/comment-reply.min.js
+[2024-10-16 19:44:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:39] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-16 19:44:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/2024/10/16/bonjour-tout-le-monde/feed/
+[2024-10-16 19:44:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 33
+[2024-10-16 19:44:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017a8193b6-mGvdAw.tmp
+[2024-10-16 19:44:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/2024/10/16/bonjour-tout-le-monde/feed/?simply_static_page=27
+[2024-10-16 19:44:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/2024/10/16/bonjour-tout-le-monde/feed/?simply_static_page=27
+[2024-10-16 19:44:42] [class-ss-url-fetcher.php:103] Filesize: 1941 bytes
+[2024-10-16 19:44:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 19:44:42] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/10/16/bonjour-tout-le-monde/feed/index.xml
+[2024-10-16 19:44:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017a8193b6-mGvdAw.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/2024/10/16/bonjour-tout-le-monde/feed/index.xml
+[2024-10-16 19:44:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:42] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-16 19:44:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:42] [class-ss-page.php:119] Checking Content Identical:be1b4bf86be4495ada1c3254c5f85d45a9f76583===. Value: FALSE
+[2024-10-16 19:44:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-includes/css/dist/block-library/common.min.css
+[2024-10-16 19:44:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 33
+[2024-10-16 19:44:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017ab300d0-ZEcGDG.tmp
+[2024-10-16 19:44:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017ab300d0-ZEcGDG.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/wp-includes/css/dist/block-library/common.min.css
+[2024-10-16 19:44:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:43] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-10-16 19:44:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/wp-json/wp/v2/posts/1
+[2024-10-16 19:44:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 33
+[2024-10-16 19:44:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017abb9697-jDfnAX.tmp
+[2024-10-16 19:44:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-10-16 19:44:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-10-16 19:44:47] [class-ss-url-fetcher.php:103] Filesize: 2030 bytes
+[2024-10-16 19:44:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-16 19:44:47] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/posts/1\index.html
+[2024-10-16 19:44:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017abb9697-jDfnAX.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/wp-json/wp/v2/posts/1\index.html
+[2024-10-16 19:44:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:47] [class-ss-page.php:119] Checking Content Identical:f40c62a6242ddcaefe7e42c119a08c7f96db53ad===. Value: FALSE
+[2024-10-16 19:44:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/author/lucas/feed/
+[2024-10-16 19:44:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 33
+[2024-10-16 19:44:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017afeb5a8-J6FMQt.tmp
+[2024-10-16 19:44:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/author/lucas/feed/?simply_static_page=30
+[2024-10-16 19:44:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/author/lucas/feed/?simply_static_page=30
+[2024-10-16 19:44:50] [class-ss-url-fetcher.php:103] Filesize: 1811 bytes
+[2024-10-16 19:44:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 19:44:50] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/lucas/feed/index.xml
+[2024-10-16 19:44:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017afeb5a8-J6FMQt.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/author/lucas/feed/index.xml
+[2024-10-16 19:44:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:51] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-16 19:44:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:51] [class-ss-page.php:119] Checking Content Identical:4441ffe3c2744d751bf96c1b6af26dd07aea8e1f===. Value: FALSE
+[2024-10-16 19:44:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/wp-json/wp/v2/users/1
+[2024-10-16 19:44:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 33
+[2024-10-16 19:44:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017b34814b-pufv43.tmp
+[2024-10-16 19:44:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/wp-json/wp/v2/users/1?simply_static_page=31
+[2024-10-16 19:44:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/wp-json/wp/v2/users/1?simply_static_page=31
+[2024-10-16 19:44:55] [class-ss-url-fetcher.php:103] Filesize: 605 bytes
+[2024-10-16 19:44:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-16 19:44:55] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/users/1\index.html
+[2024-10-16 19:44:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017b34814b-pufv43.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/wp-json/wp/v2/users/1\index.html
+[2024-10-16 19:44:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:44:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:55] [class-ss-page.php:119] Checking Content Identical:b8a2e9b54083af234e63ae78fcc36173d4fb9212===. Value: FALSE
+[2024-10-16 19:44:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/category/non-classe/feed/
+[2024-10-16 19:44:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 33
+[2024-10-16 19:44:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017b75b72c-9Bnh6K.tmp
+[2024-10-16 19:44:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/category/non-classe/feed/?simply_static_page=32
+[2024-10-16 19:44:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/category/non-classe/feed/?simply_static_page=32
+[2024-10-16 19:44:57] [class-ss-url-fetcher.php:103] Filesize: 1824 bytes
+[2024-10-16 19:44:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 19:44:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/category/non-classe/feed/index.xml
+[2024-10-16 19:44:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017b75b72c-9Bnh6K.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/category/non-classe/feed/index.xml
+[2024-10-16 19:44:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:44:57] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-16 19:44:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:44:57] [class-ss-page.php:119] Checking Content Identical:62920cf1661bf21fb6bc5e64fc7afbd22134540f===. Value: FALSE
+[2024-10-16 19:44:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/index.php/wp-json/wp/v2/categories/1
+[2024-10-16 19:44:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-10-16 19:44:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 19:44:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017b9ee434-XbUbfo.tmp
+[2024-10-16 19:44:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/index.php/wp-json/wp/v2/categories/1?simply_static_page=33
+[2024-10-16 19:44:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/index.php/wp-json/wp/v2/categories/1?simply_static_page=33
+[2024-10-16 19:45:00] [class-ss-url-fetcher.php:103] Filesize: 642 bytes
+[2024-10-16 19:45:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-16 19:45:00] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/categories/1\index.html
+[2024-10-16 19:45:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017b9ee434-XbUbfo.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806/index.php/wp-json/wp/v2/categories/1\index.html
+[2024-10-16 19:45:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 19:45:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 19:45:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 19:45:00] [class-ss-page.php:119] Checking Content Identical:ad4b2b2849eb20344439008422cfa8beb3b69e45===. Value: FALSE
+[2024-10-16 19:45:00] [class-ss-task.php:44] Status message: [fetch_urls] 21 pages/fichiers sur 33 générés
+[2024-10-16 19:45:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 19:45:05] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 19:45:05] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 19:45:05] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 1
+[2024-10-16 19:45:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/0/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2F0%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-10-16 19:45:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 34
+[2024-10-16 19:45:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/0/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2F0%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-10-16 19:45:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 19:45:05] [class-ss-task.php:44] Status message: [fetch_urls] 33 pages/fichiers sur 34 générés
+[2024-10-16 19:45:06] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 19:45:06] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 19:45:06] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 19:45:06] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 0
+[2024-10-16 19:45:06] [class-ss-task.php:44] Status message: [fetch_urls] 34 pages/fichiers sur 34 générés
+[2024-10-16 19:45:06] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-16 19:45:06] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-16 19:45:06] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-16 19:45:06] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-16 19:45:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ODILON\AppData\Local\Temp/671017c2d3110-OXLKJR.tmp
+[2024-10-16 19:45:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/0/1729107907?simply_static_page=0
+[2024-10-16 19:45:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/0/1729107907?simply_static_page=0
+[2024-10-16 19:45:10] [class-ss-url-fetcher.php:103] Filesize: 56319 bytes
+[2024-10-16 19:45:10] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-16 19:45:10] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-16 19:45:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ODILON\AppData\Local\Temp/671017c2d3110-OXLKJR.tmp to C:\xampp\htdocs\0/wp-content/uploads\simply-static\temp-files/simply-static-1-1729107806\404/index.html
+[2024-10-16 19:45:10] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-16 19:45:10] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-16 19:45:10] [class-ss-page.php:119] Checking Content Identical:a473704738672ecf2d5dc87469b012ce4c06ad86===. Value: FALSE
+[2024-10-16 19:45:10] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-16 19:45:10] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-10-16 19:45:10] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-10-16 19:45:10] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-10-16 19:45:10] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-10-16 19:45:10] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-10-16 19:45:11] [class-ss-task.php:44] Status message: [create_zip_archive] Archive ZIP créée :  <a href="http://localhost/0/wp-content/uploads/simply-static/temp-files/simply-static-1-1729107806.zip">Cliquez-ici pour la télécharger</a>
+[2024-10-16 19:45:11] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-16 19:45:11] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-16 19:45:11] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-16 19:45:11] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-16 19:45:11] [class-ss-task.php:44] Status message: [wrapup] Fin du processus
+[2024-10-16 19:45:11] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-16 19:45:11] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-16 19:45:11] [class-ss-archive-creation-job.php:324] Status message: [done] Effectué ! Fini en 00:01:45
